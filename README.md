@@ -10,8 +10,7 @@ Bolt Free Debug v1.2.10
 
 # Reproduction steps
 0. Clone repository. Open Unity Project and Compile Bolt.
-1. Open Bolt Asset Editor. Bolt->Assets.
-1b. Open state "TestState"
+1. Open Bolt Asset Editor via Bolt->Assets. Open state "TestState" in bolt editor window.
 2. Import Mecanim Modes->Replication Mode->Change "Everyone Except Controller" to "Local For Each Player"
 3. Close Bolt Editor.
 4. Observe no changes to project.json file.
